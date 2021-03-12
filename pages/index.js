@@ -1,7 +1,6 @@
-import { useEffect } from "react";
-import { PageLayout } from "../src/components/layout/page-layout";
 import { useRouter } from "next/router";
-import { Spinner, Button } from "reactstrap";
+import { Spinner } from "reactstrap";
+import React, { useEffect } from "react";
 
 const MainPage = () => {
   const router = useRouter();

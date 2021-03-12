@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from 'react';
 import "../styles/globals.css";
 import "antd/dist/antd.css";
 import "bootstrap/dist/css/bootstrap.min.css";

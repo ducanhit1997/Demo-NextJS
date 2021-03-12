@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+/* eslint-disable react/display-name */
+import React, { useEffect, useState } from "react";
 import { PageLayout } from "../../src/components/layout/page-layout";
-import { useRouter } from "next/router";
 import Portlet from "../../src/components/portlet/portlet";
 import { Button } from "antd";
-import { Tag, Space, Table, Spin } from "antd";
-import { EditOutlined, PlusOutlined, SearchOutlined } from "@ant-design/icons";
+import { Tag, Table, Spin } from "antd";
+import { EditOutlined, PlusOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import Axios from "axios";
 

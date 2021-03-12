@@ -1,10 +1,9 @@
 import Axios from "axios";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 import { PageLayout } from "../../src/components/layout/page-layout";
+import React, { useEffect, useState } from "react";
 import Portlet from "../../src/components/portlet/portlet";
-
-const MainPage = (props) => {
+const MainPage = () => {
   const router = useRouter();
   const { id } = router.query;
   console.log(id);
