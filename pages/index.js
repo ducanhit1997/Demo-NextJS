@@ -7,7 +7,7 @@ const MainPage = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push("customers");
-    }, 2000);
+    }, 1000);
   }, []);
   return (
     <div className="bg-white text-center">
